@@ -21,8 +21,9 @@ public class AutobuskaStanica {
 	
 	public boolean rezervisiKarte(String destinacija, int brojKarata) {
 		
-		for(int i=1; i<polasci.length; i++) {
-			if ((polasci[i].getDestinacija().equals(destinacija)) &&
+		for(int i=0; i<polasci.length; i++) {
+			if (polasci[i]!= null &&
+				(polasci[i].getDestinacija().equals(destinacija)) &&
 				((polasci[i].getBrojSlobodnihMesta()-brojKarata)>=0)) {
 				
 				int brojSlobodnihMesta = polasci[i].getBrojSlobodnihMesta(); 
