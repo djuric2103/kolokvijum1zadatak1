@@ -42,6 +42,8 @@ Na primer, ako metoda kao ulaz dobije niz sa četiri String vrednosti {“PAS“
 
 Dati kod se kompajlira, ali ne radi to šta treba. Napraviti klasu **StringIspisivac** u paketu **ispravka_koda**, prekucati u nju kod koji je dat  i, uz minimalne izmene ga ispraviti tako da funkcioniše kako treba. Napraviti neku test klasu i, koristeći njenu main metodu, pozvati metodu **ispisiVertikalno()** i proveriti njen rad.
 
+	package ispravka_koda;
+	
 	public class StringIspisivac {
 		public static void ispisiVertikalno(String[] niz) {
 			int i=0;
