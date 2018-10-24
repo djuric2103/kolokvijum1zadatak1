@@ -1,5 +1,7 @@
 # Zadatak 1
 
+** NAPOMENA: PO ZAVRŠETKU ZADATKA OBAVEZNO TESTIRATI REŠENJE POZIVANJEM AUTOMATIZOVANIH TESTOVA (desnim tasterom na naziv projekta, Run as - Java Application - PokreniTestove)**
+
 Napraviti javnu klasu **Polazak** u paketu **autobuska_stanica** koja ima:
  
 * Privatni atribut **destinacija** (npr. “Novi Sad”).
@@ -25,6 +27,8 @@ Napraviti javnu klasu **AutobuskaStanica** u paketu **autobuska_stanica** koja i
 Napraviti javnu klasu **ProbaAutobuskaStanica** u paketu **autobuska_stanica.proba** koja u main metodi pravi jedan objekat klase AutobuskaStanica i jedan objekat klase Polazak ("Novi Sad", 55 slobodnih mesta, 31.12.2018. 23:59:59) i unosi ovaj polazak u autobusku stanicu.
 
 # Zadatak 2 (ispravka koda)
+
+** NAPOMENA: PO ZAVRŠETKU ZADATKA OBAVEZNO TESTIRATI REŠENJE POZIVANJEM AUTOMATIZOVANIH TESTOVA (desnim tasterom na naziv projekta, Run as - Java Application - PokreniTestove)**
 
 U produžetku teksta je dat kod klase sa metodom koja kao parametar dobija niz String vrednosti i na ekranu ispisuje sve String-ove ali vertikalno (u kolonama), jedan pored drugog: u prvom redu su samo prva slova svih stringova, u drugom redu samo druga ova itd. Smatrati da nijedan element niza nije null niti duži od 5 znakova.
 
